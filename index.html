@@ -1,0 +1,68 @@
+<section id="experience">
+        <h2>2 Years in Tech Mahindra</h2>
+        <p>QA Automation & API Tester.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p><strong>Project Name:</strong> [Project 1]</p>
+        <p>Description: [Brief description of Project 1]</p>
+        <p><strong>Project Name:</strong> [Project 2]</p>
+        <p>Description: [Brief description of Project 2]</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JIRA</li>
+            <li>Manual Testing</li>
+            <li>Automation Testing</li>
+            <li>BDD Cucumber</li>
+            <li>API</li>
+            <li>JMeter</li>
+            <li>Agile</li>
+            <li>SQL</li>
+            <li>Postman (Newman Report Generator)</li>
+            <li>TestNG</li>
+            <li>Confluence</li>
+            <li>BitBucket</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="https://formspree.io/f/[YOUR_FORM_ID]" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</div>
+<footer>
+    <p>&copy; 2025 Yaswanth R. All Rights Reserved.</p>
+</footer>
+<script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            document.getElementById(targetId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Theme toggle functionality
+    function toggleTheme() {
+        const body = document.body;
+        if (body.style.backgroundColor === 'white') {
+            body.style.backgroundColor = '#121212';
+            body.style.color = '#e0e0e0';
+        } else {
+            body.style.backgroundColor = 'white';
+            body.style.color = '#121212';
+        }
+    }
+</script>
